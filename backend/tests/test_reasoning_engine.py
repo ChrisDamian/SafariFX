@@ -2,7 +2,7 @@ import pytest
 import uuid
 from datetime import datetime, timedelta
 
-from backend.models import Invoice, UrgencyLevel, BankRate
+from models import Invoice, UrgencyLevel, BankRate
 from backend.reasoning_engine import ReasoningEngine
 from backend.foundry_iq import FoundryIQClient
 
@@ -33,12 +33,12 @@ async def test_reasoning_engine_end_to_end():
     rates = [
         BankRate(
             bank_name="Equity Bank",
-            bank_code="EQ",
+            bank_code="EQT",
             buy_rate=133.50,
             sell_rate=134.80,
             spread=1.30,
-            liquidity_indicator="high",
-            swift_fee_usd=25.0,
+            liquidity_indicator="HIGH",
+            swift_fee=25.0,
             commission_pct=0.125,
             timestamp=datetime.now(),
             trend_7d=[133.0, 133.5, 133.2, 133.8, 134.0, 134.5, 134.8]
@@ -49,8 +49,8 @@ async def test_reasoning_engine_end_to_end():
             buy_rate=133.90,
             sell_rate=134.75,
             spread=0.85,
-            liquidity_indicator="high",
-            swift_fee_usd=30.0,
+            liquidity_indicator="HIGH",
+            swift_fee=30.0,
             commission_pct=0.10,
             timestamp=datetime.now(),
             trend_7d=[133.2, 133.6, 133.4, 133.9, 134.1, 134.4, 134.75]
@@ -61,8 +61,8 @@ async def test_reasoning_engine_end_to_end():
             buy_rate=132.50,
             sell_rate=135.00,
             spread=2.50,
-            liquidity_indicator="low",
-            swift_fee_usd=40.0,
+            liquidity_indicator="LOW",
+            swift_fee=40.0,
             commission_pct=0.175,
             timestamp=datetime.now(),
             trend_7d=[132.0, 132.5, 132.8, 133.5, 134.0, 134.5, 135.0]
@@ -99,4 +99,4 @@ async def test_reasoning_engine_end_to_end():
     
     step6 = report.reasoning_steps[5]
     assert step6.step_number == 6
-    assert step6.title == "Recommendation Synthesis"
+    assert step6.title == "Report Generation"

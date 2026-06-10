@@ -73,6 +73,8 @@ class ReasoningEngine:
         self.rates = rates
         self.iq_client = iq_client
         self._rate_service = RateService()
+        if rates:
+            self._rate_service._rates_cache = rates
         self._steps: list[ReasoningStep] = []
         self._iq_responses: dict[str, dict[str, Any]] = {}
 
