@@ -1,0 +1,14 @@
+# SafariFX Backend Dependencies
+# Python 3.11+ required
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
+httpx>=0.28.0
+python-dotenv>=1.0.0
+azure-identity>=1.19.0
+azure-ai-projects>=1.0.0b11
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0

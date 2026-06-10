@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "source": "SafariFX Mock Data Generator",
+    "company": "Simba Manufacturing Ltd",
+    "base_currency": "KES",
+    "generated_at": "2026-06-09T21:00:00+03:00"
+  },
+  "invoices": [
+    {
+      "id": "INV-2026-001",
+      "supplier_name": "Guangzhou Auto Parts Co. Ltd",
+      "supplier_country": "CN",
+      "currency": "USD",
+      "amount_usd": 45000,
+      "deadline": "2026-06-15",
+      "description": "CKD assembly components - Q3 production batch",
+      "payment_method": "SWIFT TT",
+      "priority": "high",
+      "status": "pending"
+    },
+    {
+      "id": "INV-2026-002",
+      "supplier_name": "Tata Steel Processing & Distribution Ltd",
+      "supplier_country": "IN",
+      "currency": "USD",
+      "amount_usd": 87500,
+      "deadline": "2026-06-20",
+      "description": "Cold-rolled steel coils - 250MT shipment for chassis fabrication",
+      "payment_method": "SWIFT TT",
+      "priority": "high",
+      "status": "pending"
+    },
+    {
+      "id": "INV-2026-003",
+      "supplier_name": "Siemens Industrial Automation GmbH",
+      "supplier_country": "DE",
+      "currency": "USD",
+      "amount_usd": 148000,
+      "deadline": "2026-07-05",
+      "description": "PLC controllers and SCADA system upgrade - Paint shop line 3",
+      "payment_method": "SWIFT TT",
+      "priority": "medium",
+      "status": "pending"
+    },
+    {
+      "id": "INV-2026-004",
+      "supplier_name": "Al Futtaim Trading Enterprises LLC",
+      "supplier_country": "AE",
+      "currency": "USD",
+      "amount_usd": 23500,
+      "deadline": "2026-06-12",
+      "description": "Automotive lubricants and hydraulic fluids - Annual contract Q2 delivery",
+      "payment_method": "SWIFT TT",
+      "priority": "urgent",
+      "status": "pending"
+    },
+    {
+      "id": "INV-2026-005",
+      "supplier_name": "Oracle Corporation",
+      "supplier_country": "US",
+      "currency": "USD",
+      "amount_usd": 32000,
+      "deadline": "2026-06-30",
+      "description": "Enterprise ERP license renewal - FY2026/27 annual subscription",
+      "payment_method": "SWIFT TT",
+      "priority": "medium",
+      "status": "pending"
+    },
+    {
+      "id": "INV-2026-006",
+      "supplier_name": "Shenzhen Bright LED Technology Co. Ltd",
+      "supplier_country": "CN",
+      "currency": "USD",
+      "amount_usd": 12800,
+      "deadline": "2026-06-18",
+      "description": "LED headlamp assemblies - 5,000 units Model KX-200",
+      "payment_method": "SWIFT TT",
+      "priority": "medium",
+      "status": "pending"
+    },
+    {
+      "id": "INV-2026-007",
+      "supplier_name": "Reliance Polymers Division",
+      "supplier_country": "IN",
+      "currency": "USD",
+      "amount_usd": 5200,
+      "deadline": "2026-06-25",
+      "description": "ABS polymer granules - Interior trim moulding compound",
+      "payment_method": "SWIFT TT",
+      "priority": "low",
+      "status": "pending"
+    },
+    {
+      "id": "INV-2026-008",
+      "supplier_name": "Bühler AG",
+      "supplier_country": "CH",
+      "currency": "USD",
+      "amount_usd": 67000,
+      "deadline": "2026-06-28",
+      "description": "Die-casting machine spare parts and maintenance kit - Annual service contract",
+      "payment_method": "SWIFT TT",
+      "priority": "high",
+      "status": "pending"
+    },
+    {
+      "id": "INV-2026-009",
+      "supplier_name": "Dubai Cable Company (Ducab)",
+      "supplier_country": "AE",
+      "currency": "USD",
+      "amount_usd": 9800,
+      "deadline": "2026-07-02",
+      "description": "Industrial wiring harness cables - Production floor expansion",
+      "payment_method": "SWIFT TT",
+      "priority": "low",
+      "status": "pending"
+    },
+    {
+      "id": "INV-2026-010",
+      "supplier_name": "Yokohama Rubber Co. Ltd",
+      "supplier_country": "JP",
+      "currency": "USD",
+      "amount_usd": 115000,
+      "deadline": "2026-06-22",
+      "description": "OEM tyre inventory - 10,000 units mixed sizes for Q3 vehicle assembly",
+      "payment_method": "SWIFT TT",
+      "priority": "high",
+      "status": "pending"
+    }
+  ]
+}
