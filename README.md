@@ -122,4 +122,3 @@ Navigate to `http://localhost:5173` to access the SafariFX dashboard.
 - **Reliability & Safety (20%)**: Mock-fallback mode ensures the demo never breaks during judging, while strict typing (Pydantic) prevents data corruption.
 
 ---
-*Built for the 2026 Agents League Hackathon.*
